@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Happy Monthsary Babeh!').split('') 
+    const titles = ('"Happy Monthsary Babeh! As the days turn into weeks and the weeks into months, our love continues to grow stronger."').split('') 
     const titleElement = document.getElementById('title');
     let index = 0;
 
